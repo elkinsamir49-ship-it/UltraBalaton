@@ -1,86 +1,187 @@
 <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>proyectos pejarito</title>
-        <link rel="stylesheet" href="css/style.css">
-    </head>
-    <body>
-        <header>
-            <li>
-             <a href="">  About the race</a>
-            <a href="">Gallery</a>
-            <a href="">Information</a>
-            <a href="">Sponsors</a>
-            <a href="">Registration</a>
-            </li>
-        </header>
-        <nav>
-            <h1>UltraBalaton 2023 <br> Team Challenge <br></h1>
-            <p> Are you ready for the  next challenge?</p>
-            
-        </nav>
-        <article>
-        <h2>About the team race</h2>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>proyectico</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
 
-           <p> The Ultrabalaton Running Fest is an annual running event in Hungary that<br>
-            encircles Lake Balaton which is the largest freshwater lake in Europe.<br> 
-            The course is unique and provides runners with stunning views of Lake <br>
-            Balaton and the surrounding region's cultural and historical landmarks.<br>
+<div class="Contenedor">
+    <div class="nav">
+        <div class="links-nav">
+            <a href="#">About the race</a>
+            <a href="#">Gallery</a>
+            <a href="#">Information</a>
+            <a href="#">Sponsors</a>
+            <a href="#">Registration</a>
+        </div>
 
-            The race can be completed as a team or as an individual runner and has<br>
-            a 32-hour time limit. Runners traversing a distance of 221 kilometers,<br>
-            which is more than 5 marathon distances.</p>
+        <div class="icons-nav">
+            <img class="redes" src="img/twitter.png" alt="LinkedIn">
+            <img class="redes" src="img/facebook.png" alt="Facebook">
+            <img class="redes" src="img/linkedin.png" alt="Twitter">
+        </div>
+    </div>
+    <section class="Banner">
+        <div class="Banner_bg"></div>
 
-            <h1>221 KM</h1>
-            <h1>32 hour limit</h1>
-            <h1> Up to 14 runners per team</h1>
-        </article>
-        <section class="imagenes">
-            <img src="img/image2.png">
-            <img src="img/image3.png">
-            <img src="img/image4.png">
-            <img src="img/image5.png">
-            <img src="img/image6.png">
-        </section>
-        full Gallery
-        <section id="route">
-            <img src="img/image7.png">
-            <h1>Route</h1>
-            The route has 54 checkpoints where runners must<br>
-            check in to verify their progress.
-            <a href="#">learn more</a>
-        </section>
-         <section id="terrain">
-            <img src="img/image8.png">
-            <h1>Terrain</h1>
-             The Ultrabalaton course covers a diverse range of terrain,<br>
-             including forests, fields, hills, and the shores of Lake Balaton.
-            <a href="#">learn more</a>
-         </section>
-         <section id="dayandnigth">
-            <img src="img/image10.png">
-            <h1>day and nigth</h1>
-            The race must also be completed at night, so runners must be<br>
-             equipped with appropriate gear, including headlamps and reflective vests.
-            <a href="#">learn more</a>
-         </section>
-         <section id="teams">
-            <img src="img/image11.png">
-            <h1>team coordination</h1>
-            In the team category, each team is made up of up to 14 members,<br>
-             who take turns to run each section of the 54-stage course. The<br>
-              team format adds an element of strategy and teamwork to the race.
-            <a href="#">learn more</a>
-         </section>
-         <section id="sponsors">
-            wazaaaa
-         </section>
-        
-    </body> 
-    <footer>
-        06 43 123 456<br>
-        info@ub2023.hu
-    </footer>
-    </html>
+        <div class="Banner_text">
+            <h1>ULTRABALATON 2023</h1>
+            <h1>TEAM CHALLENGE</h1>
+            <p>Are you ready for the next challenge?</p>
+            <button>Register</button>
+        </div>
+        <div class="Banner_dots">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </section>
+
+</div>
+<section class="about">
+    <h2>About the team race</h2>
+
+    <p class="desc">
+        The Ultrabalaton Running Fest is an annual running event in Hungary that encircles Lake Balaton
+        which is the largest freshwater lake in Europe. The course is unique and provides runners with
+        stunning views of Lake Balaton and the surrounding region's cultural and historical landmarks.
+    </p>
+
+    <p class="desc">
+        The race can be completed as a team or as an individual runner and has a
+        <strong> 32-hour time limit. </strong> Runners traversing a distance of
+        <strong> 221 kilometers </strong>, which is more than 5 marathon distances.
+    </p>
+
+
+    <div class="cards">
+        <div class="card">221 KM</div>
+        <div class="card">32 hour<br>limit</div>
+        <div class="card">Up to 14<br>runners<br>per team</div>
+    </div>
+
+</section>
+<section class="gallery-preview">
+    <div class="gallery-row">
+        <img src="img/image6.png" alt="Lake view">
+        <img src="img/image4.png" alt="Runners group">
+        <img src="img/image2.png" alt="Runners legs">
+    </div>
+    <div class="gallery-row">
+        <img src="img/image3.png" alt="Runner on road">
+        <img src="img/image5.png" alt="Sailboat on lake">
+    </div>
+    <a href="#" class="gallery-link link-with-arrow">
+        Full gallery
+    </a>
+</section>
+<section class="route-section">
+    <div class="route-image">
+        <img src="img/image7.png" alt="Route map">
+    </div>
+    <div class="route-text">
+        <h3>Route</h3>
+        <p>
+            The route has 54 checkpoints where runners must check in to verify their progress.
+        </p>
+        <a href="#" class="learn-link link-with-arrow">
+            Learn more
+        </a>
+    </div>
+</section>
+<section class="feature-section">
+
+    <div class="feature-row">
+        <div class="feature-img">
+            <img src="img/image8.png" alt="Terrain">
+        </div>
+        <div class="feature-text">
+            <h3>Terrain</h3>
+            <p>
+                The Ultrabalaton course covers a diverse range of terrain, including forests, fields, hills,
+                and the shores of Lake Balaton.
+            </p>
+            <a href="#" class="learn-link link-with-arrow">
+                Learn more 
+            </a>
+        </div>
+    </div>
+
+    <div class="feature-row">
+        <div class="feature-img">
+            <img src="img/image10.png" alt="Day and night">
+        </div>
+        <div class="feature-text">
+            <h3>Day and night</h3>
+            <p>
+                The race must also be completed at night, so runners must be equipped with appropriate gear,
+                including headlamps and reflective vests.
+            </p>
+            <a href="#" class="learn-link link-with-arrow">
+                Learn more 
+            </a>
+        </div>
+    </div>
+
+    <div class="feature-row">
+        <div class="feature-img">
+            <img src="img/image11.png" alt="Team coordination">
+        </div>
+        <div class="feature-text">
+            <h3>Team coordination</h3>
+            <p>
+                In the team category, each team is made up of up to 14 members, who take turns to run each section
+                of the 54-stage course. The team format adds an element of strategy and teamwork to the race.
+            </p>
+            <a href="#" class="learn-link link-with-arrow">
+                Learn more
+            </a>
+        </div>
+    </div>
+
+</section>
+<section class="sponsors-section">
+    <div class="sponsors-inner">
+        <h3>Sponsors</h3>
+        <div class="sponsor-logos">
+            <img src="img/logo1.png" alt="Pepsi">
+            <img src="img/logo2.png" alt="Masterplast">
+            <img src="img/logo3.png" alt="Hell">
+            <img src="img/logo4.png" alt="Tesco">
+        </div>
+    </div>
+</section>
+<section class="register-section">
+    <div class="register-card">
+        <div class="form-column">
+            <h3>Team Registration</h3>
+            <p>Sign up your team!</p>
+
+            <form>
+                <input type="text" placeholder="Your name">
+                <input type="text" placeholder="Team name">
+                <input type="email" placeholder="Your email">
+                <input type="text" placeholder="Your telephone number">
+                <button type="submit">Register</button>
+            </form>
+        </div>
+        <div class="image-column">
+            <img src="img/image12.png" alt="Shoes">
+        </div>
+    </div>
+</section>
+<footer class="footer">
+    <p>06 43 123 456</p>
+    <p>info@ub2023.hu</p>
+    <div class="footer-icons">
+        <img src="img/twitter.png" alt="Twitter">
+        <img src="img/facebook.png" alt="Facebook">
+        <img src="img/linkedin.png" alt="LinkedIn">
+    </div>
+</footer>
+
+</body>
+</html>
